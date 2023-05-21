@@ -1,0 +1,56 @@
+.Card__Section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.Card__Section:last-child {
+    margin-bottom: 100px;
+}
+
+.Card {
+    transition: all 0.5s ease-out;
+}
+
+@media (min-width: 950px) {
+    .Card__Section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .Card {
+        transition: all 0.5s ease-out;
+    }
+
+    .Card:hover {
+        cursor: pointer;
+    }
+
+    .Card:nth-child(2) {
+        transform: translateY(10%);
+    }
+
+    .Card:last-child {
+        transform: translateY(20%);
+    }
+
+    .Card:first-child:hover {
+        transform: translateY(10%);
+        box-shadow: -10px 10px 5px 0px hsla(0, 0%, 0%, 0.55);
+    }
+
+    .Card:nth-child(2):hover {
+        transform: translateY(20%);
+        box-shadow: -10px 10px 5px 0px hsla(0, 0%, 0%, 0.55);
+    }
+    .Card:last-child:hover {
+        transform: translateY(37%);
+        box-shadow: -10px 10px 5px 0px hsla(0, 0%, 0%, 0.55);
+    }
+
+}

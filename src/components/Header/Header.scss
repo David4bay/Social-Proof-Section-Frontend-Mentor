@@ -1,0 +1,37 @@
+.Header {
+    padding-top: 80px;
+    position: relative;
+}
+
+.Styled__Div::after {
+    content: '';
+    width: 100vw;
+    height: 75vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, hsl(0, 0%, 100%) 0% 10%, hsl(290, 30%, 96%) 90%);
+    transform: translateY(-50%) translateX(-10%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.Header__Title {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+    color: hsl(301, 43%, 21%);
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+
+.Sub__Heading {
+    font-size: 18px;
+    font-weight: 500;
+    width: 300px;
+    margin: 40px auto 35px auto;
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.4;
+}

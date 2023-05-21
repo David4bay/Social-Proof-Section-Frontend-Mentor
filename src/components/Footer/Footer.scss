@@ -1,0 +1,23 @@
+.Footer {
+    margin-top: 40px;
+    border-top: 1px solid hotpink;
+    text-align: center;
+    padding: 10px;
+    background-color: purple;
+    color: #fff;
+}
+
+a {
+    font-style: normal;
+    color: #fff;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+@media (min-width: 900px) {
+    .Footer {
+        margin-top: 400px;
+    }
+}
