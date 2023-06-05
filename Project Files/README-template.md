@@ -46,4 +46,4 @@ I picked ReactJS for the project and then split the view into components, using 
 
 - Website - [Hashnode Blog](https://davidbay.hashnode.dev)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/david4bay)
-- Twitter - [@yourusername](https://www.twitter.com/@davidbay01)
+- Twitter - [@yourusername](https://www.twitter.com/davidbay01)
